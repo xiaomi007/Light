@@ -11,7 +11,11 @@
     <uses-permission android:name="android.permission.CAMERA" >
     </uses-permission>
 
-    <uses-feature android:name="android.hardware.camera.flash" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
 
     <application
         android:allowBackup="true"

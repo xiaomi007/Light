@@ -13,4 +13,5 @@
 	<string name="warningButton">Start Warning</string>
 	<string name="warningOn">Warning ON</string>
 	<string name="warningOff">WarningOff</string>
+	<string name="warningValue">500ms</string>
 </resources>
